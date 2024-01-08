@@ -19,6 +19,8 @@ fun main() {
     println(mediumStrongEspressos)
 }
 
+// each enum should be annotated with @CaseDetection
+
 fun makeRandomCoffee(): Coffee {
     return Coffee(
         type = CoffeeType.entries.random(),
